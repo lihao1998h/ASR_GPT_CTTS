@@ -1,0 +1,27 @@
+
+model/*
+test_data/*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+/audio/funasr-runtime-resources
+/audio/samples
+/models
+/audio/repos/GPT-SoVITS
+/audio/models
+
+
+/.vscode
+/.cloudbase
+
+audio/temp
+/temp
+test.py
+output.srt
+funasr-runtime-resources
+/knowledge
+/audio/client
