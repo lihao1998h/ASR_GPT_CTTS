@@ -11,7 +11,7 @@ __pycache__/
 /models
 /audio/repos/GPT-SoVITS
 /audio/models
-
+/audio/client/faster-whisper-webui
 
 /.vscode
 /.cloudbase
