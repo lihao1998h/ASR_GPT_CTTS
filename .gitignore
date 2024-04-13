@@ -8,8 +8,6 @@ __pycache__/
 *$py.class
 
 
-/audio/funasr-runtime-resources
-/audio/samples
 /models
 /audio/repos/GPT-SoVITS
 /audio/models
@@ -23,5 +21,3 @@ audio/temp
 test.py
 output.srt
 funasr-runtime-resources
-/knowledge
-/audio/client
