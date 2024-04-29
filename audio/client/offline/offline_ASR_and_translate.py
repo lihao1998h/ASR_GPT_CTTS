@@ -26,7 +26,7 @@ print(f'import time: {e_time-s_time:.2f}s')
 
 
 s_time = time.time()
-ASR_MODEL_PATH = 'audio/models/faster-whisper-large-v3'
+ASR_MODEL_PATH = 'models/faster-whisper-large-v3'
 
 # 从本地目录加载模型
 # faster_whisper_model = WhisperModel(ASR_MODEL_PATH, device="cuda", compute_type="float16")

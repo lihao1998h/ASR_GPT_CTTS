@@ -21,3 +21,5 @@ audio/temp
 test.py
 output.srt
 funasr-runtime-resources
+*.exe
+/miniconda

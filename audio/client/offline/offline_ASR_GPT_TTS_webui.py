@@ -6,7 +6,7 @@ import os
 import sys
 sys.path.insert(0, os.getcwd())
     
-    
+
 from knowledge.gpt import gpt
 
 with open('language.json', 'r', encoding='utf-8') as f:
