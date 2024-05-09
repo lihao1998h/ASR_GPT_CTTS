@@ -38,7 +38,7 @@ def check_(lang):
     return lang
 
 s_time = time.time()
-ASR_MODEL_PATH = 'models/faster-whisper-large-v3'
+ASR_MODEL_PATH = 'model/faster-whisper-large-v3'
 
 # 从本地目录加载模型
 if torch.cuda.is_available():

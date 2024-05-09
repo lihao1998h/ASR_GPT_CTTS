@@ -1,1 +1,1 @@
-D:\code\ASR_GPT_TTS\code\GPT-SoVITS\GPT_SoVITS/pretrained_models/s2G488k.pth
+D:\code\ASR_GPT_CTTS\code\GPT-SoVITS\SoVITS_weights/LiHao_e8_s120.pth

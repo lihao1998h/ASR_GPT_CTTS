@@ -58,11 +58,11 @@ conda install ffmpeg -y
 # 安装其他依赖
 pip install langdetect
 pip install dashscope
+pip install rotary_embedding_torch
 
 # pip install openai-whisper
 # pip install funasr==1.0.17
 # pip install modelscope
-# pip install rotary_embedding_torch
 # pip install transformers
 # pip install nltk
 # sudo apt-get install build-essential
@@ -86,4 +86,4 @@ pip install dashscope
 
 # 致谢
 
-GPT-SoVITS可以参考[demo video](https://www.bilibili.com/video/BV12g4y1m7Uw)和[github仓库](https://github.com/RVC-Boss/GPT-SoVITS)
+GPT-SoVITS可以参考[视频1](https://www.bilibili.com/video/BV12g4y1m7Uw)和[github仓库](https://github.com/RVC-Boss/GPT-SoVITS)，也可以参考[视频2](https://www.bilibili.com/video/BV1P541117yn/?spm_id_from=333.337.search-card.all.click&vd_source=f5412289306effbb4744aa4c58c21b1d)

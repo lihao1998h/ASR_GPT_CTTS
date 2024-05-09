@@ -625,8 +625,9 @@ with gr.Blocks(title="ASR_GPT_CTTS WebUI") as app:
                     
         with gr.Row():
             inp_ref = gr.Audio(label=i18n("请上传3~10秒内参考音频，超过会报错！"), type="filepath")
-            with gr.Column():
-                ref_asr_button = gr.Button(i18n("点击语音识别参考音频"), variant="primary")
+
+            ref_asr_button = gr.Button(i18n("点击语音识别参考音频"), variant="primary")
+            
             with gr.Column():
                 ref_text_free = gr.Checkbox(label=i18n("开启无参考文本模式。不填参考文本亦相当于开启。"), value=False, interactive=True, show_label=True)
                 gr.Markdown(i18n("使用无参考文本模式时建议使用微调的GPT，听不清参考音频说的啥(不晓得写啥)可以开，开启后无视填写的参考文本。"))
@@ -655,7 +656,7 @@ with gr.Blocks(title="ASR_GPT_CTTS WebUI") as app:
             asr_button = gr.Button(i18n("语音识别+翻译"), variant="primary")
             with gr.Column():
                 asr_result = gr.Textbox(label="源文本或语音识别结果", value=""),
-                translate_result = gr.Textbox(label="翻译结果"),
+                translate_result = gr.Textbox(label="翻译结果及GPT的输入"),
                 
         asr_button.click(fn=process_input,
             inputs=[appid[0], secret_key[0], input_chinese_name[0], output_chinese_name[0], input_text[0], record[0]],
